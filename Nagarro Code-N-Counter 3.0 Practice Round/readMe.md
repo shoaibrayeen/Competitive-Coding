@@ -24,4 +24,6 @@ First line contains number of test cases, T. First line of each test case contai
 1<=N<=10^5
 |Ai|<=10^9**
 
+- Find the largest rectangular area possible in a given histogram where the largest rectangle can be made of a number of contiguous bars.
+
 
