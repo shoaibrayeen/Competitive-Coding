@@ -26,4 +26,6 @@ First line contains number of test cases, T. First line of each test case contai
 
 - Find the largest rectangular area possible in a given histogram where the largest rectangle can be made of a number of contiguous bars.
 
-
+- The equilibrium price is the price at which the quantity demanded equals the quantity supplied. It is determined by the intersection of the demand and supply curves.
+Demand and supply curve can be thought of as straight lines with quantity on x-axis and price on y-axis and given by, y=m1x + c1 and y=m2x + c2 respectively. Quantity demanded decreases with increase in price while quantity supplied increases with increase in price.
+Determine whether it is possible to attain equilibrium or not. If possible output the equilibrium price.Otherwise, output -1.
