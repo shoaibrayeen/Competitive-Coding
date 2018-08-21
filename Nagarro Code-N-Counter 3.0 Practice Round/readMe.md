@@ -29,3 +29,5 @@ First line contains number of test cases, T. First line of each test case contai
 - The equilibrium price is the price at which the quantity demanded equals the quantity supplied. It is determined by the intersection of the demand and supply curves.
 Demand and supply curve can be thought of as straight lines with quantity on x-axis and price on y-axis and given by, y=m1x + c1 and y=m2x + c2 respectively. Quantity demanded decreases with increase in price while quantity supplied increases with increase in price.
 Determine whether it is possible to attain equilibrium or not. If possible output the equilibrium price.Otherwise, output -1.
+
+-You are climbing up using stairs where a number is written on each stair. At each step we define the alpha score as sum of all the numbers previously seen on the stairs which are smaller than the present number. Alpha score of the whole journey is defined as the sum of all the alpha scores at each step. Print the alpha score of whole journey modulus 1000000007.
