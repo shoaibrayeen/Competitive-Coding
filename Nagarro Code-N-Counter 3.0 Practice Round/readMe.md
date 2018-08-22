@@ -30,4 +30,23 @@ First line contains number of test cases, T. First line of each test case contai
 Demand and supply curve can be thought of as straight lines with quantity on x-axis and price on y-axis and given by, y=m1x + c1 and y=m2x + c2 respectively. Quantity demanded decreases with increase in price while quantity supplied increases with increase in price.
 Determine whether it is possible to attain equilibrium or not. If possible output the equilibrium price.Otherwise, output -1.
 
--You are climbing up using stairs where a number is written on each stair. At each step we define the alpha score as sum of all the numbers previously seen on the stairs which are smaller than the present number. Alpha score of the whole journey is defined as the sum of all the alpha scores at each step. Print the alpha score of whole journey modulus 1000000007.
+- You are climbing up using stairs where a number is written on each stair. At each step we define the alpha score as sum of all the numbers previously seen on the stairs which are smaller than the present number. Alpha score of the whole journey is defined as the sum of all the alpha scores at each step. Print the alpha score of whole journey modulus 1000000007.
+
+- You are given a text and a wildcard pattern. A text contains lowercase English letters only. A wildcard pattern can contain, along with lowercase English letters, '?' and '*' characters.
+
+**'?' matches any single character. For example, Text = "aaba" and Pattern = "aa?a", then they are matched.
+' * ' matches any subsegment of characters(including empty sub-segment). For example, Text = "aaba" and Pattern = "a*", then they are matched. Find out if the pattern and text matches or not.**
+
+- Given a number n, F(n) is defined as the number of solutions of the equation:
+**x + y + z = n
+such that
+1) x, y, z >= 0
+2) (x & y & z) > 0 where & is bitwise AND
+Output the answer F(n) Modulo 1000000007.**
+- You are given N elements, a1,a2,a3….aN. Find the number of good sub-arrays.
+**A good sub-array is a sub-array [ai,ai+1,ai+2….aj] such that (ai+ai+1+ai+2+….+aj) is divisible by N.**
+- Given a value N, if we want to make change for N cents, and we have infinite supply of each of S = { S1, S2, .. , Sm} valued coins, In how many ways can we make the change? The order of coins doesn’t matter.
+
+- **A group of N friends want to have a photograph in which all of them jump at the same moment of time**
+They hire a photographer for this purpose. At the time of photograph, they all jump at the same time. Unfortunately, the photographer fails to capture this picture. So he asks the group to keep jumping, till the time comes when all them jumps at the same moment of time. ith friend jumps after exactly Ai seconds from the previous jump. So the ith friend jumps at seconds, 0, Ai, 2Ai, 3Ai,… and so on. Find the time needed to capture this picture after the first jump.
+As the answer can be large, print the answer modulo 109+7.
