@@ -34,8 +34,8 @@ Determine whether it is possible to attain equilibrium or not. If possible outpu
 
 - You are given a text and a wildcard pattern. A text contains lowercase English letters only. A wildcard pattern can contain, along with lowercase English letters, '?' and '*' characters.
 
-**'?' matches any single character. For example, Text = "aaba" and Pattern = "aa?a", then they are matched.
-' * ' matches any subsegment of characters(including empty sub-segment). For example, Text = "aaba" and Pattern = "a*", then they are matched. Find out if the pattern and text matches or not.**
+'?' matches any single character. For example, Text = "aaba" and Pattern = "aa?a", then they are matched.
+' * ' matches any subsegment of characters(including empty sub-segment). For example, Text = "aaba" and Pattern = "a*", then they are matched. Find out if the pattern and text matches or not.
 
 - Given a number n, F(n) is defined as the number of solutions of the equation:
 **x + y + z = n
