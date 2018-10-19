@@ -11,27 +11,27 @@
 #include <iterator>
 using namespace std;
 void showlist(list <int> list1) {
-    list <int> :: iterator it;                              // Declaring Iterator of the list
+    list <int> :: iterator it;                        // Declaring Iterator of the list
     for(it = list1.begin(); it != list1.end(); ++it) {
         cout << *it << "\t";
     }
 }
 
 int main() {
-    list <int> list1;                                       // Declaring List
+    list <int> list1;                                 // Declaring List
     for (int i = 1; i < 4; ++i) {
-        list1.push_back(i);                                 // Insert at back
-        list1.push_front(i*5);                              // Insert at front
-    }
-    cout << "\nFront Element\t\t:\t" << list1.front();      // Front Element
-    cout << "\nBack Element\t\t:\t" << list1.back();        // Back Element
-    list1.pop_front();                                      // Pop Front Element
-    list1.pop_back();                                       // Pop Back Element
-    list1.reverse();                                        // Reverse of List
-    list1.sort();                                           // Sort the List -> Take less time usually
+        list1.push_back(i);                           // Insert at back
+        list1.push_front(i*5);                        // Insert at front
+    }                                                 // List after insertion -> 15    10    5    1    2    3
+    cout << "\nFront Element\t\t:\t" << list1.front();// Output -> 15
+    cout << "\nBack Element\t\t:\t" << list1.back();  // Output -> 3
+    list1.pop_front();                                // Popped Element -> 15
+    list1.pop_back();                                 // Popped Element -> 3
+    list1.reverse();                                  // Output -> 2   1   5   10
+    list1.sort();                                     // Output -> 1   2   5   10
     cout << "\nPrint Final List\t:\t";
-    showlist(list1);                                        // Print List Using Iterators
-    cout << endl;                                           // Final Output -> 1 , 2 , 5 , 10
+    showlist(list1);
+    cout << endl;                                     // Final Output -> 1 , 2 , 5 , 10
     return 0;
     
 }
