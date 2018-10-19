@@ -40,3 +40,15 @@ int main() {
    First in First out : FIFO
    User can access only front and rear element So Iterators can't access Queue.
 */
+
+
+
+/*
+    The functions supported by queue are ->
+    empty() – Returns whether the queue is empty
+    size() – Returns the size of the queue
+    front() – Returns a reference to the first element of the queue
+    back() – Returns a reference to the last element of the queue
+    push(g) – Adds the element ‘g’ at the end of the queue
+    pop() – Deletes the first element of the queue
+*/
