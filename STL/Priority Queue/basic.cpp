@@ -24,18 +24,17 @@ int main() {
     temp.push(2);                                       // Insert elements in the Priority queue
     temp.push(1);
     temp.push(3);
-    cout << "\nQueue\t\t\t:\t";
-    showpq(temp);                                       // Displaying Priority Queue
-    cout << "\nSize of Queue\t:\t" << temp.size();      // Size of Priority Queue
-    cout << "\nTop Element\t\t:\t" << temp.top();       // Top Element of Priority Queue
-    int t1 = temp.top();                                // Popped Element
-    temp.pop();                                         // Removing element from the Priority queue
-    cout << "\nPopped Element\t:\t" << t1;              // Popped Element
-    cout << "\nQueue\t\t\t:\t";
-    showpq(temp);                                       // Displaying Priority Queue
-    cout << endl;                                       // Final Result -> 2 , 1
+    cout << "\nPriority Queue\t:\t";
+    showpq(temp);                                       // Output -> 9 , 3 , 2 , 1
+    cout << "\nSize of Queue\t:\t" << temp.size();      // Output -> 4
+    cout << "\nTop Element\t\t:\t" << temp.top();       // Output -> 9
+    temp.pop();                                         // Popped Element -> 9
+    cout << "\nPriority Queue\t:\t";
+    showpq(temp);                                       // Output -> 3 , 2 , 1
+    cout << endl;
     return 0;
 }
+
 
 
 
