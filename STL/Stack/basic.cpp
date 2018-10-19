@@ -1,3 +1,4 @@
+
 //
 //  q2.cpp
 //  Algorithm
@@ -24,17 +25,16 @@ int main() {
     temp.push(2);
     temp.push(3);
     cout << "\nStack\t\t\t:\t";
-    showstack(temp);                                     // Displaying Stack
-    cout << "\nSize of Stack\t:\t" << temp.size();       // Size of Stack
-    cout << "\nTop Element\t\t:\t" << temp.top();        // Top Element
-    int t1 = temp.top();                                 // Popped Element
-    temp.pop();                                          // Removing element from Stack
-    cout << "\nPopped Element\t:\t" << t1;               // Popped Element
+    showstack(temp);                                     // Output -> 3 , 2 , 1
+    cout << "\nSize of Stack\t:\t" << temp.size();       // Output -> 3
+    cout << "\nTop Element\t\t:\t" << temp.top();        // Output -> 3
+    temp.pop();                                          // Popped Element -> 3
     cout << "\nQueue\t\t\t:\t";
-    showstack(temp);                                     // Displaying Stack
-    cout << endl;                                        // Final Result -> 2 , 1
+    showstack(temp);                                     // Output -> 2 , 1
+    cout << endl;
     return 0;
 }
+
 
 /*
   Last In First Out -> LIFO
