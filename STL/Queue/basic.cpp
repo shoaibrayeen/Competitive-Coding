@@ -24,18 +24,17 @@ int main() {
     temp.push(2);
     temp.push(3);
     cout << "\nQueue\t\t\t:\t";
-    showq(temp);                                        // Displaying Queue
-    cout << "\nSize of Queue\t:\t" << temp.size();      // Size of Queue
-    cout << "\nFront Element\t:\t" << temp.front();     // Front Element of Queue
-    cout << "\nBack Element\t:\t" << temp.back();       // Rear Element of Queue
-    int t1 = temp.front();    // Popped Element
-    temp.pop();                                         // Removing element from the queue
-    cout << "\nPopped Element\t:\t" << t1;              // Popped Element
+    showq(temp);                                        // Output -> 1 , 2 , 3
+    cout << "\nSize of Queue\t:\t" << temp.size();      // Output -> 3
+    cout << "\nFront Element\t:\t" << temp.front();     // Output -> 1
+    cout << "\nBack Element\t:\t" << temp.back();       // Output -> 3
+    temp.pop();                                         // Popped Element -> 1
     cout << "\nQueue\t\t\t:\t";
-    showq(temp);                                        // Displaying Queue
-    cout << endl;                                       // Final Result -> 2 , 3
+    showq(temp);                                        // Output -> 2 , 3
+    cout << endl;
     return 0;
 }
+
 /*
    First in First out : FIFO
    User can access only front and rear element So Iterators can't access Queue.
