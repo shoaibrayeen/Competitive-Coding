@@ -36,14 +36,14 @@ int main() {
     int asize = sizeof(a) / sizeof(a[0]);       // calculating Size of Array
     cout << "\nArray\t\t:\t";
     show(a, asize);                             // Output -> 10 , 20 , 20 , 30 , 40  , 50
-    if ( binary_search(a, a + 6, 20) ) {         // searching 2 in the array
-        cout << "\nFound at\t:\t "<< (lower_bound(a , a + 5, 20) - a);  // Output -> 1
+    if ( binary_search(a, a + 6, 20) ) {         // searching 20 in the array
+        cout << "\nFound at\t:\t "<< (lower_bound(a , a + 6, 20) - a);  // Output -> 1
     }
     else {
         cout << "\n2 not found";          // print if function returns False
     }
     if ( binary_search(a, a + 6, 9) ) {         // Searching 9 in the array
-        cout << "\nFound at\t:\t "<< (lower_bound(a , a + 5, 9) - a);  // print if function returns True
+        cout << "\nFound at\t:\t "<< (lower_bound(a , a + 6, 9) - a);  // print if function returns True
     }
     else {
         cout << "\n9 not found\n";        // print if function returns False
