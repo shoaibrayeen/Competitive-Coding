@@ -14,7 +14,7 @@ public:
                 break;
             }
             if( i > j) {
-                std::cout << "\nNo Such Two Numbers\n";
+                std::cout << "No Such Two Numbers\n";
                 return res;
             }
         }
