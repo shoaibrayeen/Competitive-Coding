@@ -1,15 +1,6 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
-bool prime(int n) {
-    int p = sqrt(n);
-    for(int i = 2; i <= p; i++) {
-        if(n%i == 0) {
-            return false;
-        }
-    }
-    return true;
-}
+
 int main() {
 	 int sieve[1000009];
     sieve[0]=0, sieve[1]=0;
