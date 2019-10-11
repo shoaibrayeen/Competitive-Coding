@@ -66,7 +66,7 @@ void MoveNode(struct Node** destRef, struct Node** sourceRef)
  
 /* UTILITY FUNCTIONS */
 /* Function to insert a node at the beginging of the linked list */
-void push(struct node** head_ref, int new_data)
+void push(struct Node** head_ref, int new_data)
 {
   /* allocate node */
   struct Node* new_node =

@@ -49,3 +49,4 @@ Then, b and c are initialized in order.
 
 Before main() exits, b and c are destructed in the reverse order of their construction. Then, when main() returns, a is destructed as per §3.6.3 in the standard:
 "Destructors for initialized objects (...) with static storage duration are called as a result of returning from main."
+*/

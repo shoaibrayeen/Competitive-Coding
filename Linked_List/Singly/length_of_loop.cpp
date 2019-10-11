@@ -71,11 +71,12 @@ int main()
  
     return 0;
 }
-Run on IDE
-Output :
 
-4
-Related Articles : 
-Detect loop in a linked list
-Detect and Remove Loop in a Linked List
+// Run on IDE
+// Output :
+
+// 4
+// Related Articles : 
+// Detect loop in a linked list
+// Detect and Remove Loop in a Linked List
 

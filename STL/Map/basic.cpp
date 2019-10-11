@@ -14,7 +14,7 @@ int main() {
   temp.insert(pair <int, int> (10, 50));
   temp.erase(3);			// remove all elements with key = 3
   cout << "\nElements of Map\n";
-  for (itr = temp.begin(); itr != temp.end(); ++itr) {
+  for (auto itr = temp.begin(); itr != temp.end(); ++itr) {
     cout  <<  '\t' << itr->first <<  '\t' << itr->second << '\n';
   }
   cout << endl;

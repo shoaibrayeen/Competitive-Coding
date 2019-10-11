@@ -10,7 +10,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+#include <algorithm>
 
 void toConvertIntoAlternativeFashion(vector<int> array) {
     int n = int(array.size());

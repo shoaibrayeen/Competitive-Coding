@@ -130,7 +130,7 @@ void push(struct Node** head_ref, char new_data)
 }
  
 // A utility function to print a given linked list
-void printList(struct node *ptr)
+void printList(struct Node *ptr)
 {
     while (ptr != NULL)
     {

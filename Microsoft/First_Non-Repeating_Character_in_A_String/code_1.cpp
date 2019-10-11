@@ -6,7 +6,7 @@
 //  Copyright © 2018 Shoaib Rayeen. All rights reserved.
 //
 
-
+#include<bits/stdc++.h>
 #include <iostream>
 using namespace std;
 
