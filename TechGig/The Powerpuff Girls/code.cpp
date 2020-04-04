@@ -1,4 +1,3 @@
-/*Enter your code here. Read input from STDIN. Print your output to STDOUT*/
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -22,12 +21,13 @@ int main()
 {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
-    int n;
-    cin >> n;
+    	int n;
+    	cin >> n;
 	vector<long> quantity(n);
 	for( int i = 0; i < n; i++ ) {
 		cin >> quantity[i];
 	}
 	
 	cout << helper(quantity , n) << "\n"; 
+	return 0;
 }
