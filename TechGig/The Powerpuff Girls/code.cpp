@@ -3,7 +3,8 @@
 #include <climits>
 using namespace std;
 
-long long int helper(vector<long> quantity, int n) {
+long long int helper(vector<long> quantity) {
+        int n = int(quantity.size());
 	long long int result = INT_MAX;
 	long long int labQuantity;
 	for( int i = 0; i < n; i++ ) {
@@ -28,6 +29,6 @@ int main()
 		cin >> quantity[i];
 	}
 	
-	cout << helper(quantity , n) << "\n"; 
+	cout << helper(quantity) << "\n"; 
 	return 0;
 }
