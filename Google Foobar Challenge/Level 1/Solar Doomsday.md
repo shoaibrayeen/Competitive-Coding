@@ -37,6 +37,8 @@ Input:
 Solution.solution(15324)  
 Output:  
  15129,169,25,1
+ 
+ ## Solution
 
 ```
 li=[]
