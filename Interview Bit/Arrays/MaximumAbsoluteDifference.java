@@ -15,42 +15,42 @@ public class MaximumAbsoluteDifference {
 		//array to store the value of A[i] + i
 		int a[] = new int[N];  
 		//array to store the value of A[i] - i
-        int b[] = new int[N]; 
+        	int b[] = new int[N]; 
   
-        for (int i=0; i<N; i++) { 
-            a[i] = (A.get(i) + i); 
-            b[i] = (A.get(i) - i); 
-        } 
+        	for (int i=0; i<N; i++) { 
+           		a[i] = (A.get(i) + i); 
+            		b[i] = (A.get(i) - i); 
+        	} 
   
-        int x = a[0];
-        int y = a[0]; 
-        //storing the max value in x and min value in y where index(i) is taken as positive
-        //index is taken as positive
-        for (int i=0; i<N; i++) { 
-            if (a[i] > x) 
-                x = a[i]; 
+        	int x = a[0];
+        	int y = a[0]; 
+        	//storing the max value in x and min value in y where index(i) is taken as positive
+        	//index is taken as positive
+        	for (int i=0; i<N; i++) { 
+            	if (a[i] > x) 
+                	x = a[i]; 
   
-            if (a[i] < y) 
-                y = a[i]; 
-        } 
-        int ans1 = (x - y); 
+            	if (a[i] < y) 
+                	y = a[i]; 
+        	} 
+        	int ans1 = (x - y); 
   
-        x = b[0]; 
-        y = b[0]; 
-        //storing the max value in x and min value in y where index(i) is taken as negative
-        //index is taken as negative
-        for (int i=0; i<N; i++){ 
-            if (b[i] > x) 
-                x = b[i]; 
+        	x = b[0]; 
+        	y = b[0]; 
+        	//storing the max value in x and min value in y where index(i) is taken as negative
+        	//index is taken as negative
+        	for (int i=0; i<N; i++){ 
+            		if (b[i] > x) 
+                	x = b[i]; 
             
-            if (b[i] < y) 
-                y = b[i]; 
-        } 
-        int ans2 = (x - y); 
+            	if (b[i] < y) 
+                	y = b[i]; 
+        	} 
+        	int ans2 = (x - y); 
   
-        //returning the maximum of both the results
-        return Math.max(ans1, ans2); 
-    }
+        	//returning the maximum of both the results
+        	return Math.max(ans1, ans2); 
+    	}
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
